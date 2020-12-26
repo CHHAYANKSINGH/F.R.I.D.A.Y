@@ -45,7 +45,7 @@ def sendEmail(to,content): #for sending email you should turn off less secure ap
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.ehlo()
     server.starttls()
-    server.login('s1032190678@gmail.com','Chhayank@123')
+    server.login('s1032190678@gmail.com','Write your password here!')
     server.sendmail('s1032190678@gmail.com',to,content)
     server.close()
 
